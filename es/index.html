@@ -49,6 +49,9 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Gitlab</a>
+        </li>
+        <li class="nav-item">
           <i class="fas fa-language fa-3x" style="color: white"></i><br>
           <select id="language">
             <option value="/en/">English (English)</option>
@@ -223,6 +226,19 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gitlab-mirror">
+        <div class="w-100" id="projects">
+            <h2 class="mb-5">Gitlab</h2>
+            <div class="subheading mb-3">Los proyectos se nombran en inglés</div>
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="gitlab-template" style="display: none">
+                <div class="resume-content">
+                  <h3 class="mb-0"><a href="Project URL">Project Name</a></h3>
+                  <div class="subheading mb-3">Project Description</div>
+                </div>
+              </div>
+        </div>
+    </section>
+
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -231,9 +247,14 @@
 
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="/res/js/resume.min.js"></script>
+
+  <!-- Gitlab script -->
+  <script src="/res/js/gitlab.js"></script>
+
 </body>
 <script>
   window.onload = function() {
