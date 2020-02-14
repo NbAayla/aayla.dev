@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -19,17 +19,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
 
   <!-- Custom styles for this template -->
-  <link href="../res/css/resume.css" rel="stylesheet">
+  <link href="/res/css/resume.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Aayla Fetzer</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../res/img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/res/img/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,35 +37,38 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#education">Educación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#gitlab-mirror">Gitlab</a>
         </li>
-        </li>
         <li class="nav-item">
           <i class="fas fa-language fa-3x" style="color: white"></i><br>
           <select id="language">
-            <option value="../en/">English (English)</option>
-            <option value="../es/">Español (Spanish)</a></option>
-            <option value="../ru/">Русский (Russian)</option>
+            <option value="/en/">English (English)</option>
+            <option value="/es/">Español (Spanish)</a></option>
+            <option value="/ru/">Русский (Russian)</option>
           </select>
         </li>
       </ul>
     </div>
   </nav>
-
   <div class="container-fluid p-0">
-
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Advertencia:</h1>
+            <p class="lead">No hablo español a un nivel avanzado. Esta página fue hecha principalmente para practicar y probablemente contiene errores.</p>
+          </div>
+        </div>
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Aayla
@@ -75,10 +77,10 @@
         <div class="subheading mb-5">
           <a href="mailto:aayla.pozho@gmail.com">aayla.pozho@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am a dedicated enterprise technology and programming enthusiast with focused interests in data science, web development, software development, and linguistics. I am semi-fluent with Spanish and Russian and am currently studying TensorFlow to further my career in computer science. Smart, ready-to-work, ready-to-learn individual with a can-do attitude.
-          </p>
+        <p class="lead mb-5">Soy una entusiasta dedicada de la tecnología empresarial y la programación con intereses en la ciencia de datos, desarrollo web, desarrollo de software y lingüística. Yo hablo español y ruso en un nivel intermedio. Estoy estudiando TensorFlow para continuar mi carrera en ciencias de la computación.
+        </p>
         <div class="social-icons">
-          <a href="https://gitlab.com/apozho">
+          <a href="https://gitlab.com/afetzer">
             <i class="fab fa-gitlab"></i>
           </a>
           <a href="https://t.me/aaylapozho">
@@ -95,28 +97,29 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Experiencia</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Data Analytics</h3>
+            <h3 class="mb-0">Analítica de datos</h3>
             <div class="subheading mb-3">Arete Associates</div>
             <ul>
-                <li>Developing and implementing a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time</li>
-                <li>Develop a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms</li>
-                <li>Develop a Python script to automatically extract and organize data from proprietary formats through a GUI</li>                
+                <li>Desarrollé e implementé un algoritmo de Phase Correlation en Python y C++ para detectar y rastrear objetos de subpíxeles en tiempo real</li>
+                <li>Desarrollé un formato de archivo binario para almacenar marcos de la cámara comprimidos con los algoritmos Lempel-Ziv-Markov Chain y PAQ8L</li>
+                <li>Desarrollé un script de Python para extraer y organizar automáticamente los datos de formatos propietarios a través de una GUI</li>                
             </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">January 2019 - July 2019</span>
+            <span class="text-primary">Enero 2019 - Julio 2019</span>
           </div>
         </div>
+
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Websites I Made</h3>
+            <h3 class="mb-0">Sitios web que he hecho</h3>
             <ul>
-                <li>This one</li>
-                <li><a href="https://newurbanistzoomers.org">New Urbanist Zoomers</a></li>  
+                <li>Esto</li>
+                <li><a href="https://newurbanistzoomers.org">"New Urbanist Zoomers" (Solo inglés)</a></li>  
             </ul>
           </div>
         </div>
@@ -129,25 +132,25 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5">Educación</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0"><a href="https://msudenver.edu">Metropolitan State University</a></h3>
-            <div class="subheading mb-3">Computer Science With Minors In Math And Economics</div>
+            <div class="subheading mb-3">Ciencias de la Computación con menores en matemáticas y economía</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">Starting January 2020</span>
+            <span class="text-primary">A partir de enero January 2020</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0"><a href="https://aims.edu">Aims Community College</a></h3>
+            <h3 class="mb-0"><a href="https://www.aims.edu">Aims Community College</a></h3>
             <div class="subheading mb-3">Associate in Computer Science</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2018 - December 2019</span>
+            <span class="text-primary">Junio 2018 - Diciembre 2019</span>
           </div>
         </div>
 
@@ -165,10 +168,10 @@
             <div class="resume-content">
               <h3 class="mb-0">GED</h3>
               <ul>
-                <li>Language Arts - 166/200 (83%)</li>
-                <li>Social Studies 191.200 (96%)</li>
-                <li>Math 176/200 (88%)</li>
-                <li>Science 175/200 (88%)</li>
+                <li>Artes del lenguaje - 166/200 (83%)</li>
+                <li>Estudios Sociales 191.200 (96%)</li>
+                <li>Matemáticas 176/200 (88%)</li>
+                <li>Ciencia 175/200 (88%)</li>
               </ul>
             </div>
             <div class="resume-date text-md-right">
@@ -183,9 +186,9 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5">Habilidades</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-3">Lenguajes de programación &amp; Herramientas</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-html5"></i>
@@ -216,17 +219,17 @@
           </li>
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
+        <div class="subheading mb-3">Flujo de trabajo</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Fast prototyping</li>
+            Prototipado rápido</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Best practices</li>
+            Mejores prácticas</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Very good at searching StackOverflow</li>
+            Muy bueno con buscar en StackOverflow</li>
         </ul>
       </div>
     </section>
@@ -236,6 +239,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gitlab-mirror">
         <div class="w-100" id="projects">
             <h2 class="mb-5">Gitlab</h2>
+            <div class="subheading mb-3">Los proyectos se nombran en inglés</div>
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="gitlab-template" style="display: none">
                 <div class="resume-content">
                   <h3 class="mb-0"><a href="Project URL">Project Name</a></h3>
@@ -256,16 +260,16 @@
   <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="../res/js/resume.min.js"></script>
+  <script src="/res/js/resume.min.js"></script>
 
   <!-- Gitlab script -->
-  <script src="../res/js/gitlab.js"></script>
+  <script src="/res/js/gitlab.js"></script>
 
 </body>
 <script>
   window.onload = function() {
   var language = document.getElementById("language");
-  language.selectedIndex = 0;
+  language.selectedIndex = 1;
   language.onchange = function() {
     window.location.href = language.options[language.selectedIndex].value;
   }
