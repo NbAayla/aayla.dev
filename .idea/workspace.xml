@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="">
+    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="That should fix the mobile render issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/js/gitlab.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/gitlab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1590253928778" duration="15000" />
       <workItem from="1591823154881" duration="261000" />
       <workItem from="1591823770835" duration="260000" />
-      <workItem from="1591824159613" duration="1882000" />
+      <workItem from="1591824159613" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1587707200391</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591828000321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="That should fix the mobile render issue">
+      <created>1591828397709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591828397709</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,24 +138,25 @@
     <MESSAGE value="Changed Keybase link to profile instead of public site" />
     <MESSAGE value="Oops" />
     <MESSAGE value="Added Public Key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Public Key" />
+    <MESSAGE value="That should fix the mobile render issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="That should fix the mobile render issue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591827931638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591827931638" />
-    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591827999809">
+    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591828769208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591827999809" />
+    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591828769208" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590244134934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590244134934" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1591828025549">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1591828398952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591828025549" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591828398952" />
   </component>
 </project>
