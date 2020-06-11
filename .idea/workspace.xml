@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Fixed gitlab url">
-      <change afterPath="$PROJECT_DIR$/res/crypto/protonmailpubkey.txt" afterDir="false" />
+    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubkey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/crypto/keybasepubkey.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1590253928778" duration="15000" />
       <workItem from="1591823154881" duration="261000" />
       <workItem from="1591823770835" duration="260000" />
-      <workItem from="1591824159613" duration="5315000" />
+      <workItem from="1591824159613" duration="5337000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1587707200391</created>
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591829192949</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added crypto section">
+      <created>1591846818962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591846818962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,17 +160,18 @@
     <MESSAGE value="Added Public Key" />
     <MESSAGE value="That should fix the mobile render issue" />
     <MESSAGE value="Fixed gitlab url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed gitlab url" />
+    <MESSAGE value="Added crypto section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added crypto section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591827931638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591827931638" />
-    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591845607861">
+    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591846818438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591845607861" />
+    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591846818438" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590244134934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
