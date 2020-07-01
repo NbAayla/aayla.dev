@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/crypto/crypto.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apozho.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apozho.com.iml" afterDir="false" />
+    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Changed how the crypto section works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/gitlab.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/js/gitlab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/languagetest.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <workItem from="1591823770835" duration="260000" />
       <workItem from="1591824159613" duration="8063000" />
       <workItem from="1593636533181" duration="109000" />
-      <workItem from="1593636657768" duration="5472000" />
+      <workItem from="1593636657768" duration="5620000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1587707200391</created>
@@ -193,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591847222151</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changed how the crypto section works">
+      <created>1593642204838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593642204838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +226,8 @@
     <MESSAGE value="Reorganized Crypto Section" />
     <MESSAGE value="Moved Crypto Section" />
     <MESSAGE value="Reorganized menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized menu" />
+    <MESSAGE value="Changed how the crypto section works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed how the crypto section works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591827931638">
