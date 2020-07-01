@@ -21,6 +21,14 @@
   <!-- Custom styles for this template -->
   <link href="/res/css/resume.css" rel="stylesheet">
 
+  <style>
+    .modal-dialog {
+      max-width: 50%;
+    }
+    .modal-body p {
+      word-wrap: break-word;
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -246,18 +254,32 @@
 
     <hr class="m-0">
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalHeaderText">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p id="modalBodyText">Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="crypto">
       <div class="w-100" id="crypto-stuff">
         <h2 class="mb-5">Cryptography</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <a href="/res/crypto/keybasepubkey.txt"><i class="fas fa-key"></i> Keybase Public Key</a>
-          </li>
-          <li>
-            <a href="/res/crypto/protonmailpubkey.txt"><i class="fas fa-key"></i> Protonmail Public Key</a>
-          </li>
-          <li>
-            <a href="mailto:aaylafetzer@protonmail.ch"><i class="fas fa-envelope"></i> aaylafetzer@protonmail.ch</a>
+        <ul class="fa-ul mb-0" id="cryptoList">
+          <li id="cryptoKeyTemplate" style="display: none">
+            <a data-toggle="modal" href="#" id="keyTemplate" onclick="keyClick(this)"><i class="{icon}" style="padding-right: 1em;"></i>{label}</a>
           </li>
         </ul>
       </div>
@@ -302,13 +324,43 @@
   <script src="/res/js/gitlab.js"></script>
 
 </body>
+
+<script>
+  function keyClick(button) {
+    let data = $.ajax("/res/crypto/crypto.json").done(function (response) {
+      $("#modalHeaderText")[0].innerHTML = button.text
+      $("#modalBodyText")[0].innerText = response[button.text]["data"]
+      $("#myModal").modal();
+    });
+  }
+</script>
+
 <script>
   window.onload = function() {
-  var language = document.getElementById("language");
-  language.selectedIndex = 0;
-  language.onchange = function() {
-    window.location.href = language.options[language.selectedIndex].value;
-  }
+    // Create the crypto section buttons
+    $.ajax("/res/crypto/crypto.json").done(function (response) {
+      Object.entries(response).forEach(entry => {
+        const [key, value] = entry;
+        // Create the clone
+        let keyTemplate = $("#keyTemplate").clone();
+        let keyTemplateHtml = $(keyTemplate).html();
+        // Replace the content
+        keyTemplateHtml = keyTemplateHtml.replace("keyTemplate", value["data"].replace(" ", "_"));
+        keyTemplateHtml = keyTemplateHtml.replace("{icon}", value["icon"]);
+        keyTemplateHtml = keyTemplateHtml.replace("{label}", key);
+        // Add a newline to break the list
+        keyTemplateHtml += "<br>"
+        // Add the entry
+        $(keyTemplate).html(keyTemplateHtml);
+        $(keyTemplate).appendTo("#cryptoList")
+      })
+    });
+    // Set language button
+    var language = document.getElementById("language");
+    language.selectedIndex = 0;
+    language.onchange = function() {
+      window.location.href = language.options[language.selectedIndex].value;
+    }
 }
 </script>
 </html>

@@ -4,8 +4,8 @@ var md = new Remarkable();
 $(document).ready(function() {
     $.getJSON(apiURL, function(result) {
         $.each(result, function(i, field) {
-            var project = $("#gitlab-template").clone();
-            var projectHtml = $(project).html();
+            let project = $("#gitlab-template").clone();
+            let projectHtml = $(project).html();
             
             //Replace the content
             projectHtml = projectHtml.replace("Project Name", field["name"]);
@@ -13,7 +13,6 @@ $(document).ready(function() {
             projectHtml = projectHtml.replace("Project URL", field["http_url_to_repo"]);
             $(project).html(projectHtml);
 
-            console.log(field)
 
             //Add the project to DOM
             $(project).appendTo("#projects")
