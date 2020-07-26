@@ -7,6 +7,7 @@
             "https://gitlab.com/api/v4/users/" . $value["User"] . "/projects?order_by=last_activity_at"), true);
         // Render the projects onto the page
         foreach ($gitlabData as $project => $data) {
+            // Markdown parsing
             include("res/php/gitlabSectionObject.php");
         }
         ?>
