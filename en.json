@@ -1,0 +1,111 @@
+{
+  "Name": "Aayla Fetzer",
+  "Email": "aayla@afetzer.com",
+  "Bio": "I am proud to state that there is absolutely no JavaScript running on this page.",
+  "Social": [
+    {
+      "URL": "https://gitlab.com/afetzer",
+      "Fontawesome Class": "fab fa-gitlab"
+    },
+    {
+      "URL": "https://t.me/aaylafetzer",
+      "Fontawesome Class": "fab fa-telegram"
+    },
+    {
+      "URL": "https://api.whatsapp.com/send?phone=17206037835",
+      "Fontawesome Class": "fab fa-whatsapp"
+    },
+    {
+      "URL": "https://keybase.io/aayla",
+      "Fontawesome Class": "fab fa-keybase"
+    }
+  ],
+  "Sections": {
+    "Experience": {
+      "Type": "Experience",
+      "Anchor": "experience",
+      "Content": [
+        {
+          "Title": "Data Analytics",
+          "Subtitle": "Arete Associates",
+          "Date Range": "January 2016 - July 2019",
+          "Roles": [
+            "Developing and implementing a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time",
+            "Develop a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms",
+            "Develop a Python script to automatically extract and organize data from proprietary formats through a GUI"
+          ]
+        },
+        {
+          "Title": "Websites I've Made",
+          "Roles": [
+            "This one",
+            "<a href='https://newurbanistzoomers.org'>New Urbanist Zoomers</a>",
+            "<a href='https://spookyfoxinc.com'>spookyfoxinc.com</a>",
+            "<a href='https://samwat.ch'>Samwat.ch</a>"
+          ]
+        }
+      ]
+    },
+    "Education": {
+      "Type": "Experience",
+      "Anchor": "education",
+      "Content": [
+        {
+          "Title": "<a href='https://msudenver.edu'>Metropolitan State University</a>",
+          "Subtitle": "Computer Science with Minors in Math and Economics",
+          "Date Range": "January 2019 - Present"
+        },
+        {
+          "Title": "<a href='https://aims.edu'>AIMS Community College</a>",
+          "Subtitle": "Associates Degree in Computer Science",
+          "Date Range": "June 2018 - December 2019"
+        },
+        {
+          "Title": "Comptia CYSA+ Certification",
+          "Subtitle": "AIMS Community College",
+          "Date Range": "2019"
+        },
+        {
+          "Title": "GED",
+          "Roles": [
+            "Language Arts - 186/200 (93%)",
+            "Social Studies - 191/200 (96%)",
+            "Math - 182/200 (91%)",
+            "Science - 185/200 (92%)"
+          ]
+        }
+      ]
+    },
+    "Cryptography": {
+      "Type": "Links",
+      "Anchor": "crypto",
+      "Content": [
+        {
+          "Title": "Keybase Public Key",
+          "Icon": "fas fa-key",
+          "URL": "res/crypto/Keybase Public Key.asc"
+        },
+        {
+          "Title": "Protonmail Public Key",
+          "Icon": "fas fa-key",
+          "URL": "res/crypto/Protonmail Public Key.asc"
+        },
+        {
+          "Title": "Protonmail Address",
+          "Icon": "fas fa-envelope",
+          "URL": "mailto:aaylafetzer@protonmail.ch"
+        },
+        {
+          "Title": "GitLab Public Key",
+          "Icon": "fas fa-key",
+          "URL": "res/crypto/GitLab Public Key.asc"
+        }
+      ]
+    },
+    "Gitlab": {
+      "Type": "Gitlab",
+      "Anchor": "gitlab",
+      "User": "afetzer"
+    }
+  }
+}

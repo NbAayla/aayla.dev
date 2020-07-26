@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Changed how the crypto section works">
+    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Fixed gitlab links">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/php/php-markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/php/gitlabSection.php" beforeDir="false" afterPath="$PROJECT_DIR$/res/php/gitlabSection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/php/gitlabSectionObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/res/php/gitlabSectionObject.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectConfigurationFiles">
@@ -64,14 +70,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ru" />
       <recent name="C:\Users\aayla\OneDrive\Documents\Code\apozho.com\res\crypto" />
       <recent name="C:\Users\aayla\OneDrive\Documents\Code\apozho.com\res\keybasepubkey.txt" />
     </key>
@@ -95,7 +107,11 @@
       <workItem from="1591823770835" duration="260000" />
       <workItem from="1591824159613" duration="8063000" />
       <workItem from="1593636533181" duration="109000" />
-      <workItem from="1593636657768" duration="5620000" />
+      <workItem from="1593636657768" duration="5963000" />
+      <workItem from="1595735042138" duration="48000" />
+      <workItem from="1595736163570" duration="1017000" />
+      <workItem from="1595737917749" duration="25000" />
+      <workItem from="1595737954473" duration="10201000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1587707200391</created>
@@ -195,11 +211,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593642204838</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added noscript option for crypto">
+      <created>1593642296740</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593642296740</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed the PHP rewrite">
+      <created>1595747166619</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595747166619</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed gitlab links">
+      <created>1595747398499</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595747398499</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.asc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -211,6 +251,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated" />
@@ -227,13 +268,21 @@
     <MESSAGE value="Moved Crypto Section" />
     <MESSAGE value="Reorganized menu" />
     <MESSAGE value="Changed how the crypto section works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed how the crypto section works" />
+    <MESSAGE value="Added noscript option for crypto" />
+    <MESSAGE value="Completed the PHP rewrite" />
+    <MESSAGE value="Fixed gitlab links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed gitlab links" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591827931638">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="725" y="341" width="597" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595744075832">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="725" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591827931638" />
+    <state x="725" y="341" width="597" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595744075832" />
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595746582552">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595746582552" />
     <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1591847221680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,13 +291,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590244134934" />
-    <state x="456" y="188" width="1007" height="737" key="SettingsEditor" timestamp="1593637157919">
+    <state x="777" y="475" width="355" height="164" key="NewPhpFileDialog" timestamp="1595745048290">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="456" y="188" width="1007" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1593637157919" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1591847223655">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="777" y="475" width="355" height="164" key="NewPhpFileDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595745048290" />
+    <state x="218" y="221" width="1007" height="737" key="SettingsEditor" timestamp="1595735088783">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="218" y="221" width="1007" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595735088783" />
+    <state x="552" y="279" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1595747403385">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591847223655" />
+    <state x="552" y="279" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595747403385" />
+    <state x="752" y="466" width="416" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595747542535">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="752" y="466" width="416" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1595747542535" />
   </component>
 </project>
