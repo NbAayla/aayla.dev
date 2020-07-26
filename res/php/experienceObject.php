@@ -4,8 +4,11 @@
         <div class="subheading mb-3"><?php echo $value["Subtitle"] ?></div>
         <ul>
             <?php
+                include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
+                use Michelf\Markdown;
                 foreach ($value["Roles"] as $rolesKey => $rolesValue) {
-                    echo "<li>" . $rolesValue . "</li>";
+                    $rolesValue = Markdown::defaultTransform($rolesValue);
+                    echo "<li>" . strip_tags($rolesValue, '<a>') . "</li>";
                 }
             ?>
         </ul>

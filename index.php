@@ -4,6 +4,9 @@
     fclose($jsonFile);
     $jsonContent = json_decode($jsonString, true);
     $splitName = explode(" ", $jsonContent["Name"]);
+
+//    error_reporting(E_ALL | E_STRICT);
+//    ini_set('display_errors', 1);
 ?>
 <html lang="en">
 

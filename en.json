@@ -36,12 +36,21 @@
           ]
         },
         {
+          "Title": "Contract Engineer",
+          "Subtitle": "Socialist Rifle Association",
+          "Date Range": "May 2020 - Ongoing",
+          "Roles": [
+            "Install and configure [Tendenci](https://www.tendenci.com/) for membership management",
+            "Create a [bridge](https://gitlab.com/afetzer/joinit-discourse-integration) with Python Django between JoinIt and Discourse to automatically add new members to a forum"
+          ]
+        },
+        {
           "Title": "Websites I've Made",
           "Roles": [
             "This one",
-            "<a href='https://newurbanistzoomers.org'>New Urbanist Zoomers</a>",
-            "<a href='https://spookyfoxinc.com'>spookyfoxinc.com</a>",
-            "<a href='https://samwat.ch'>Samwat.ch</a>"
+            "[New Urbanist Zoomers](https://newurbanistzoomers.org)",
+            "[spookyfoxinc.com](https://spookyfoxinc.com)",
+            "[Samwat.ch](https://samwat.ch)"
           ]
         }
       ]
