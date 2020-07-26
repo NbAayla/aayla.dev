@@ -19,28 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Added noscript option for crypto">
-      <change afterPath="$PROJECT_DIR$/res/crypto/GitLab Public Key.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/crypto/Keybase Public Key.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/crypto/Protonmail Public Key.asc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/experienceObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/experienceSection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/gitlabSection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/gitlabSectionObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/linkSection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/linkSectionObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/php/socialIcons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apozho.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apozho.com.iml" afterDir="false" />
+    <list default="true" id="70b2e1a8-86b2-4789-9ee0-fdf6da7a0c2d" name="Default Changelist" comment="Completed the PHP rewrite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/crypto/crypto.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/gitlab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/resume.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/resume.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/php/gitlabSectionObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/res/php/gitlabSectionObject.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +107,7 @@
       <workItem from="1595735042138" duration="48000" />
       <workItem from="1595736163570" duration="1017000" />
       <workItem from="1595737917749" duration="25000" />
-      <workItem from="1595737954473" duration="9164000" />
+      <workItem from="1595737954473" duration="9416000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1587707200391</created>
@@ -233,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593642296740</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Completed the PHP rewrite">
+      <created>1595747166619</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595747166619</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +258,8 @@
     <MESSAGE value="Reorganized menu" />
     <MESSAGE value="Changed how the crypto section works" />
     <MESSAGE value="Added noscript option for crypto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added noscript option for crypto" />
+    <MESSAGE value="Completed the PHP rewrite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the PHP rewrite" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="341" width="597" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595744075832">
