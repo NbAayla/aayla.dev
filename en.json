@@ -1,7 +1,7 @@
 {
   "Name": "Aayla Fetzer",
   "Email": "aayla@afetzer.com",
-  "Bio": "I am proud to state that there is absolutely no JavaScript running on this page.",
+  "Bio": "I'm a nonbinary Python developer that is proud to announce that there is absolutely no JavaScript running their page.",
   "Social": [
     {
       "URL": "https://gitlab.com/afetzer",
@@ -41,7 +41,7 @@
           "Date Range": "May 2020 - Ongoing",
           "Roles": [
             "Install and configure [Tendenci](https://www.tendenci.com/) for membership management",
-            "Create a [bridge](https://gitlab.com/afetzer/joinit-discourse-integration) with Python Django between JoinIt and Discourse to automatically add new members to a forum"
+            "Create a [translation layer](https://gitlab.com/afetzer/joinit-discourse-integration) with Python Django between JoinIt and Discourse to automatically add new members to a forum"
           ]
         },
         {
