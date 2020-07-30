@@ -28,7 +28,7 @@
         {
           "Title": "Data Analytics",
           "Subtitle": "Arete Associates",
-          "Date Range": "January 2016 - July 2019",
+          "Date Range": "January 2019 - July 2019",
           "Roles": [
             "Developing and implementing a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time",
             "Develop a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms",
