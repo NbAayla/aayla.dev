@@ -18,6 +18,10 @@
     {
       "URL": "https://keybase.io/aayla",
       "Fontawesome Class": "fab fa-keybase"
+    },
+    {
+      "URL": "https://matrix.to/#/@aayla_:matrix.org",
+      "Fontawesome Class": "fas fa-comments"
     }
   ],
   "Sections": {
