@@ -1,3 +1,2 @@
 <?php
-$output = `git pull`;
-echo "<pre>$output</pre>";
+shell_exec(`git pull`);
