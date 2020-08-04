@@ -114,7 +114,7 @@
           "URL": "res/crypto/GitLab Public Key.asc"
         },
         {
-          "Title": "Matrix URL",
+          "Title": "Matrix Account",
           "Icon": "fas fa-comments",
           "URL": "https://matrix.to/#/@aayla_:matrix.org"
         }
