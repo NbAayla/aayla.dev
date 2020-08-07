@@ -12,10 +12,6 @@
       "Fontawesome Class": "fab fa-telegram"
     },
     {
-      "URL": "https://api.whatsapp.com/send?phone=17206037835",
-      "Fontawesome Class": "fab fa-whatsapp"
-    },
-    {
       "URL": "https://keybase.io/aayla",
       "Fontawesome Class": "fab fa-keybase"
     },
