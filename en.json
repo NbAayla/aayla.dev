@@ -16,7 +16,7 @@
       "Fontawesome Class": "fab fa-keybase"
     },
     {
-      "URL": "https://matrix.to/#/@aayla_:matrix.org",
+      "URL": "https://matrix.to/#/@aayla:matrix.afetzer.com",
       "Fontawesome Class": "fas fa-comments"
     }
   ],
@@ -112,7 +112,7 @@
         {
           "Title": "Matrix Account",
           "Icon": "fas fa-comments",
-          "URL": "https://matrix.to/#/@aayla_:matrix.org"
+          "URL": "https://matrix.to/#/@aayla:matrix.afetzer.com"
         }
       ]
     },
