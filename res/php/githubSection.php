@@ -3,8 +3,12 @@
         <h2 class="mb-5"><?php echo $section; ?></h2>
         <?php
         // Get info from gitlab
-        $githubData = json_decode(file_get_contents(
-            "https://api.github.com/users/" . $value["User"] . "/repos?sort=updated"), true);
+        $ch = curl_init("https://api.github.com/users/" . $value["User"] . "/repos?sort=updated");
+        curl_setopt($ch, CURLOPT_USERAGENT, "afetzer.com/1.0");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        $data = curl_exec($ch);
+        $githubData = json_decode($data, true);
+        curl_close($ch);
         // Render the projects onto the page
         foreach ($githubData as $project => $data) {
             // Markdown parsing
