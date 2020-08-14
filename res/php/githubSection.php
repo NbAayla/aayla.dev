@@ -8,7 +8,7 @@
         // Render the projects onto the page
         foreach ($githubData as $project => $data) {
             // Markdown parsing
-            include("res/php/gitlabSectionObject.php");
+            include("res/php/githubSectionObject.php");
         }
         ?>
     </div>
