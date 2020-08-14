@@ -4,8 +4,8 @@
   "Bio": "I'm a nonbinary Python developer that is proud to announce that there is absolutely no JavaScript running their page.",
   "Social": [
     {
-      "URL": "https://gitlab.com/afetzer",
-      "Fontawesome Class": "fab fa-gitlab"
+      "URL": "https://github.com/aaylafetzer",
+      "Fontawesome Class": "fab fa-github"
     },
     {
       "URL": "https://t.me/aaylafetzer",
@@ -116,10 +116,10 @@
         }
       ]
     },
-    "Gitlab": {
-      "Type": "Gitlab",
-      "Anchor": "gitlab",
-      "User": "afetzer"
+    "Github": {
+      "Type": "Github",
+      "Anchor": "github",
+      "User": "aaylafetzer"
     }
   }
 }

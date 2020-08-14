@@ -3,13 +3,13 @@
         <h2 class="mb-5"><?php echo $section; ?></h2>
         <?php
         // Get info from gitlab
-        $gitlabData = json_decode(file_get_contents(
-            "https://gitlab.com/api/v4/users/" . $value["User"] . "/projects?order_by=last_activity_at"), true);
+        $githubData = json_decode(file_get_contents(
+            "https://api.github.com/users/" . $value["User"] . "/repos?sort=updated"), true);
         // Render the projects onto the page
-        foreach ($gitlabData as $project => $data) {
+        foreach ($githubData as $project => $data) {
             // Markdown parsing
             include("res/php/gitlabSectionObject.php");
         }
         ?>
-    </div>https://api.github.com/users/
+    </div>
 </section>

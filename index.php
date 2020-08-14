@@ -91,6 +91,8 @@
                 case "Gitlab":
                     include("res/php/gitlabSection.php");
                     break;
+                case "Github":
+                    include("res/php/githubSection.php");
             }
         }
       ?>
