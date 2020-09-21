@@ -5,8 +5,22 @@
     $jsonContent = json_decode($jsonString, true);
     $splitName = explode(" ", $jsonContent["Name"]);
 
-//    error_reporting(E_ALL | E_STRICT);
-//    ini_set('display_errors', 1);
+    set_error_handler(function($errno, $errstr, $errfile, $errline, $errcontext) {
+        // error was suppressed with the @-operator
+        if (0 === error_reporting()) {
+            return false;
+        }
+
+        throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+    });
+
+    try {
+        include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
+    } catch (Exception $e) {
+        shell_exec("/usr/bin/git submodule update --init --recursive");
+    }
+    include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
+    use Michelf\Markdown;
 ?>
 <html lang="en">
 
@@ -18,7 +32,6 @@
     <?php
     include("res/php/metaTags.php");
     ?>
-  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
 
   <!-- Custom fonts for this template -->

@@ -1,6 +1,4 @@
 <?php
-include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
-use Michelf\Markdown;
 $HtmlDescription = Markdown::defaultTransform($data["description"]);
 ?>
 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="gitlab-template">
