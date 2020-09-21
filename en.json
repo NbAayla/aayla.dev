@@ -38,7 +38,7 @@
         {
           "Title": "Contract Engineer",
           "Subtitle": "Socialist Rifle Association",
-          "Date Range": "May 2020 - September 2020 (Promoted)",
+          "Date Range": "May 2020 - Promoted",
           "Roles": [
             "Install and configure [Tendenci](https://www.tendenci.com/) for membership management",
             "Create a [translation layer](https://gitlab.com/afetzer/joinit-discourse-integration) with Python Django between JoinIt and Discourse to automatically add new members to a forum"
