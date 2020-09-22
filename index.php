@@ -110,3 +110,22 @@ if ($jsonContent["Social"]) {
 // Close splash section
 echo '</div></section>';
 
+// Build rest of site content
+foreach ($jsonContent["Sections"] as $section => $value) {
+    echo '<hr class="m-0">';
+    switch ($value["Type"]) {
+        case "Experience":
+            include("res/php/experienceSection.php");
+            break;
+        case "Links":
+            include("res/php/linkSection.php");
+            break;
+        case "Gitlab":
+            include("res/php/gitlabSection.php");
+            break;
+        case "Github":
+            include("res/php/githubSection.php");
+    }
+}
+
+echo '</div></body></html>';
