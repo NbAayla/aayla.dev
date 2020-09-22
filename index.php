@@ -29,6 +29,8 @@ echo '
 
 // Get URL for profile image
 $imageUrl = $jsonContent["Meta"]["URL"] . "/" . $jsonContent["Image"];
+// Split name for style
+$splitName = explode(" ", $jsonContent["Name"]);
 
 // Create slightly different meta tags for each platform because the market system fosters competition that generally
 // produces the most efficient allocation of resources.
@@ -61,4 +63,50 @@ echo '
 <body id="page-top">
 ';
 
-// Build
+// Build navbar
+echo '
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">' . $jsonContent["Name"] . '</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="' . $imageUrl . '" alt="">
+      </span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top">About</a>
+          </li>
+';
+// Build links to sections
+foreach ($jsonContent["Sections"] as $section => $key) {
+    echo '
+        <li class="nav-item">
+            <a class="nav-link" href="#' . $key["Anchor"] . '">' . $section . '</a>
+        </li>
+    ';
+}
+echo '</ul></div></nav>';
+
+// Build site splash
+echo '
+    <div class="container-fluid p-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+          <div class="w-100">
+            <h1 class="mb-0">' . $splitName[0] . '
+              <span class="text-primary">' . $splitName[1] . '</span>
+            </h1>
+            <div class="subheading mb-5">
+              <a href="mailto:' . $jsonContent["Email"] . '" aria-hidden="true">' . $jsonContent["Email"] . '</a>
+            </div>
+            <p class="lead mb-5">' . $jsonContent["Bio"] . '</p>
+';
+
+// Build Social Media Icons
+if ($jsonContent["Social"]) {
+    include("res/php/socialIcons.php");
+}
+
+// Close splash section
+echo '</div></section>';
+
