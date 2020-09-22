@@ -14,7 +14,6 @@ try {
     shell_exec("/usr/bin/git submodule update --init --recursive");
 }
 include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
-use Michelf\Markdown;
 
 // Load page content
 $jsonContent = json_decode(
@@ -127,7 +126,13 @@ foreach ($jsonContent["Sections"] as $section => $value) {
         case "Links":
             echo '<ul class="fa-ul mb-0">';
             foreach ($value["Content"] as $key => $newValue) {
-                include("res/php/linkSectionObject.php");
+                echo '
+                    <li>
+                        <a href="' . $newValue["URL"] . '">
+                            <i class="' . $newValue["Icon"] . '" style="padding-right: 1em;"></i>' . $newValue["Title"] . '
+                        </a>
+                    </li>
+                ';
             }
             echo '</ul>';
             break;
@@ -139,5 +144,4 @@ foreach ($jsonContent["Sections"] as $section => $value) {
     }
     echo '</div></section>';
 }
-
 echo '</div></body></html>';

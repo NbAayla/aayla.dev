@@ -1,5 +1,4 @@
 <?php
-include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
 use Michelf\Markdown;
 $HtmlDescription = Markdown::defaultTransform($data["description"]);
 ?>
