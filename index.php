@@ -167,9 +167,6 @@ foreach ($jsonContent["Sections"] as $section => $value) {
             }
             echo '</ul>';
             break;
-        case "Gitlab":
-            include("res/php/gitlabSection.php");
-            break;
         case "Github":
             // Get info from gitlab
             $ch = curl_init("https://api.github.com/users/" . $value["User"] . "/repos?sort=updated");
