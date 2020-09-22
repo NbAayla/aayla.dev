@@ -1,4 +1,5 @@
 <?php
+
 set_error_handler(function($errno, $error_str, $error_file, $error_line) {
     // error was suppressed with the @-operator
     if (0 === error_reporting()) {
@@ -14,6 +15,7 @@ try {
     shell_exec("/usr/bin/git submodule update --init --recursive");
 }
 include_once("res/php/php-markdown/Michelf/Markdown.inc.php");
+use Michelf\Markdown;
 
 // Load page content
 $jsonContent = json_decode(
@@ -149,7 +151,15 @@ foreach ($jsonContent["Sections"] as $section => $value) {
             curl_close($ch);
             // Render the projects onto the page
             foreach ($githubData as $project => $data) {
-                include("res/php/githubSectionObject.php");
+                $HtmlDescription = Markdown::defaultTransform($data["description"]);
+                echo '
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0"><a href="' . $data["html_url"] . '">' . $data["full_name"] . '</a></h3>
+                            <div class="subheading mb-3">' . $HtmlDescription . '</div>
+                        </div>
+                    </div>
+                ';
             }
             break;
     }
