@@ -23,7 +23,7 @@ $jsonContent = json_decode(
 
 // Start the file
 echo '
-<html lang=" ' . $jsonContent["Meta"]["Language"] . '">
+<html lang="' . $jsonContent["Meta"]["Language"] . '">
 <head><title>' . $jsonContent["Meta"]["Title"] . '</title>
 ';
 

@@ -32,13 +32,13 @@
       "Anchor": "experience",
       "Content": [
         {
-          "Title": "Data Analytics",
-          "Subtitle": "Arete Associates",
-          "Date Range": "January 2019 - July 2019",
+          "Title": "Web & Script Developer",
+          "Subtitle": "Socialist Rifle Association",
+          "Date Range": "September 2020 - Ongoing",
           "Roles": [
-            "Developing and implementing a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time",
-            "Develop a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms",
-            "Develop a Python script to automatically extract and organize data from proprietary formats through a GUI"
+            "Maintain and develop the [socialistra.org](https://socialistra.org) website and any other SRA websites, web services, and server infrastructure",
+            "Consulting with and advising any web or script development contractors hired by the SRA",
+            "Create scripts to assist in day-to-day functions of SRA staff"
           ]
         },
         {
@@ -51,13 +51,13 @@
           ]
         },
         {
-          "Title": "Web & Script Developer",
-          "Subtitle": "Socialist Rifle Association",
-          "Date Range": "September 2020 - Ongoing",
+          "Title": "Data Analytics",
+          "Subtitle": "Arete Associates",
+          "Date Range": "January 2019 - July 2019",
           "Roles": [
-            "Maintain and develop the [socialistra.org](https://socialistra.org) website and any other SRA websites, web services, and server infrastructure",
-            "Consulting with and advising any web or script development contractors hired by the SRA",
-            "Create scripts to assist in day-to-day functions of SRA staff"
+            "Developing and implementing a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time",
+            "Develop a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms",
+            "Develop a Python script to automatically extract and organize data from proprietary formats through a GUI"
           ]
         },
         {
