@@ -1,5 +1,11 @@
 {
   "Name": "Aayla Fetzer",
+  "Meta": {
+    "Language": "en",
+    "Title": "Aayla Fetzer",
+    "URL": "https://aayla.dev"
+  },
+  "Image": "/res/img/profile.jpg",
   "Email": "aayla@afetzer.com",
   "Bio": "I'm a nonbinary Python developer that is proud to announce that there is absolutely no JavaScript running their page.",
   "Social": [
