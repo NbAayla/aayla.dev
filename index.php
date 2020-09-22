@@ -114,7 +114,7 @@ echo '</div></section>';
 foreach ($jsonContent["Sections"] as $section => $value) {
     echo '
 <hr class="m-0">
-<section id="' . $value["Anchor"] . '" class="resume-section p-3 p-lg-5 d-flex justify-content-center">
+<section id="' . $value["Anchor"] . '" class="resume-section p-3 p-lg-5 d-flex align-items-center">
 <div class="w-100">
 <h2 class="mb-5">' . $section . '</h2>
 ';
@@ -125,7 +125,11 @@ foreach ($jsonContent["Sections"] as $section => $value) {
             }
             break;
         case "Links":
-            include("res/php/linkSection.php");
+            echo '<ul class="fa-ul mb-0">';
+            foreach ($value["Content"] as $key => $newValue) {
+                include("res/php/linkSectionObject.php");
+            }
+            echo '</ul>';
             break;
         case "Gitlab":
             include("res/php/gitlabSection.php");
