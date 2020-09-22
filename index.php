@@ -112,10 +112,17 @@ echo '</div></section>';
 
 // Build rest of site content
 foreach ($jsonContent["Sections"] as $section => $value) {
-    echo '<hr class="m-0">';
+    echo '
+<hr class="m-0">
+<section id="' . $value["Anchor"] . '" class="resume-section p-3 p-lg-5 d-flex justify-content-center">
+<div class="w-100">
+<h2 class="mb-5">' . $section . '</h2>
+';
     switch ($value["Type"]) {
         case "Experience":
-            include("res/php/experienceSection.php");
+            foreach ($value["Content"] as $key => $value) {
+                include("res/php/experienceObject.php");
+            }
             break;
         case "Links":
             include("res/php/linkSection.php");
@@ -126,6 +133,7 @@ foreach ($jsonContent["Sections"] as $section => $value) {
         case "Github":
             include("res/php/githubSection.php");
     }
+    echo '</div></section>';
 }
 
 echo '</div></body></html>';
