@@ -105,7 +105,13 @@ echo '
 
 // Build Social Media Icons
 if ($jsonContent["Social"]) {
-    include("res/php/socialIcons.php");
+    echo '<div class="social-icons">';
+    foreach ($jsonContent["Social"] as $key=>$value) {
+        echo "<a href=\"" . $value["URL"] . "\">";
+        echo "<i class=\"" . $value["Fontawesome Class"] . "\" aria-hidden=\"true\" style='align-self: center; padding-top: 30%'></i>";
+        echo "</a>";
+    }
+    echo '</div>';
 }
 
 // Close splash section
