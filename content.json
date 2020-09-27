@@ -7,7 +7,7 @@
   },
   "Image": "/res/img/profile.jpg",
   "Email": "aayla@afetzer.com",
-  "Bio": "I'm a nonbinary Python developer that is proud to announce that there is absolutely no JavaScript running their page.",
+  "Bio": "I'm a nonbinary Python and Rust developer exploring computer vision with OpenCV.",
   "Social": [
     {
       "URL": "https://github.com/aaylafetzer",
@@ -38,7 +38,9 @@
           "Roles": [
             "Maintain and develop the [socialistra.org](https://socialistra.org) website and any other SRA websites, web services, and server infrastructure",
             "Consulting with and advising any web or script development contractors hired by the SRA",
-            "Create scripts to assist in day-to-day functions of SRA staff"
+            "Create scripts to assist in day-to-day functions of SRA staff",
+            "Migrate [shop.socialistra.org](https://shop.socialistra.org) to Shopify",
+            "Create a tools to manage member data and mass emails through Mailgun"
           ]
         },
         {
