@@ -109,7 +109,7 @@ if ($jsonContent["Social"]) {
     echo '<div class="social-icons">';
     foreach ($jsonContent["Social"] as $key=>$value) {
         echo "<a href=\"" . $value["URL"] . "\">";
-        echo "<i class=\"" . $value["Fontawesome Class"] . "\" aria-hidden=\"true\" style='align-self: center; padding-top: 30%'></i>";
+        echo "<i class=\"social-icon " . $value["Fontawesome Class"] . "\" aria-hidden=\"true\" style='align-self: center;'></i>";
         echo "</a>";
     }
     echo '</div>';
