@@ -7,7 +7,7 @@
   },
   "Image": "/res/img/profile.jpg",
   "Email": "aayla@afetzer.com",
-  "Bio": "I'm a nonbinary Python and Rust developer exploring computer vision with OpenCV.",
+  "Bio": "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV.",
   "Social": [
     {
       "URL": "https://github.com/aaylafetzer",
