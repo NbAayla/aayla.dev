@@ -26,6 +26,7 @@ $jsonContent = json_decode(
 echo '
 <html lang="' . $jsonContent["Meta"]["Language"] . '">
 <head><title>' . $jsonContent["Meta"]["Title"] . '</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 ';
 
 // Get URL for profile image
