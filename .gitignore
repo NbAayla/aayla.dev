@@ -1,1 +1,7 @@
 .idea/
+/pdf/tex/main.aux
+/pdf/tex/main.dvi
+/pdf/tex/main.log
+/pdf/tex/main.pdf
+/pdf/tex/main.synctex.gz
+/pdf/tex/missfont.log
