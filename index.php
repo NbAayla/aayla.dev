@@ -228,5 +228,9 @@ function toggleDark() {
         toggle.classList.replace("fa-sun", "fa-moon");
     }
 }
+if (window.matchMedia && window.matchMedia(\'(prefers-color-scheme: dark)\').matches) {
+    toggleDark();
+}
+
 </script>';
 echo '</html>';
