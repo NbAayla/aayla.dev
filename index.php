@@ -211,7 +211,7 @@ echo '</div>
     display: none;
 }
 </style>
-
+</noscript>
 </body>
 
 <script>
