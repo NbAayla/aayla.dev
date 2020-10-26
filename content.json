@@ -131,11 +131,6 @@
           "URL": "https://matrix.to/#/@aayla:matrix.afetzer.com"
         }
       ]
-    },
-    "Github": {
-      "Type": "Github",
-      "Anchor": "github",
-      "User": "aaylafetzer"
     }
   }
 }

@@ -61,8 +61,9 @@ echo '
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
 <!-- Custom styles for this template -->
 <link href="/res/css/resume.css" rel="stylesheet">
+<link href="/res/css/darktheme.css" rel="stylesheet">
 </head>
-<body id="page-top">
+<body id="page-top" class="dark-theme">
 ';
 
 // Build navbar
@@ -80,6 +81,7 @@ echo '
               <a class="nav-link js-scroll-trigger" href="#page-top">About</a>
           </li>
 ';
+
 // Build links to sections
 foreach ($jsonContent["Sections"] as $section => $key) {
     echo '
@@ -194,4 +196,37 @@ foreach ($jsonContent["Sections"] as $section => $value) {
     }
     echo '</div></section>';
 }
-echo '</div></body></html>';
+// Theme toggle button
+echo '</div>
+
+<div class="themetoggle social-icons">
+    <a class="social-icon" onclick="toggleDark();">
+        <i class="fas fa-moon" id="theme-toggle"></i>
+    </a>
+</div>
+
+<noscript>
+<style>
+.themetoggle {
+    display: none;
+}
+</style>
+
+</body>
+
+<script>
+function toggleDark() {
+    for (let tag of ["a", "body", "h1", "h2", "h3"]) {
+        for (let item of document.getElementsByTagName(tag)) { 			 		
+            item.classList.toggle("darktheme"); 
+        }
+    }
+    let toggle = document.getElementById("theme-toggle");
+    if (toggle.classList[1] == "fa-moon") {
+        toggle.classList.replace("fa-moon", "fa-sun");
+    } else {
+        toggle.classList.replace("fa-sun", "fa-moon");
+    }
+}
+</script>';
+echo '</html>';
