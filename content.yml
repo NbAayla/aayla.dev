@@ -1,0 +1,62 @@
+name: Aayla "Crash" Fetzer
+meta:
+  language: en
+  title: Aayla Fetzer
+  url: "https://aayla.dev"
+image: "https://aayla.dev/res/img/profile.jpg"
+email: "aayla@aayla.dev"
+bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
+social:
+  GitHub: "https://github.com/aaylafetzer"
+  Telegram: "https://t.me/aaylafetzer"
+  Keybase: "https://keybase.io/aayla"
+  Twitter: "https://twitter.com/TovAayla"
+sections:
+  Experience:
+      type: experience
+      content:
+        Script And Web Developer:
+          subtitle: Socialist Rifle Association
+          date range: Septemer 2020 - Ongoing
+          roles:
+            - Develop and maintain SRA websites, web services, and server infrastructure
+            - Develop scripts to automate the tasks of SRA staff, saving several hundred labor hours to date
+            - Created SRA Merch store with [Shopify](https://shopify.com)
+        Contract Engineer:
+          subtitle: Socialist Rifle Association
+          date range: May 2020 - Promoted
+          roles:
+            - Install and configure [Tendenci](https://www.tendenci.com/) for membership management
+            - Create a [translation layer](https://github.com/aaylafetzer/JoinIt-Discourse-Integration) with Python Django between [JoinIt](https://joinit.org) and [Discourse](https://discourse.org) to automatically add new members to a forum
+        Data Analytics:
+          subtitle: Arete Associates
+          date range: January 2019 - July 2019
+          roles:
+            - Developed and implemented a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time
+            - Developed a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms
+            - Developed a Python script to automatically extract and organize data from proprietary formats through a GUI
+        Websites I've Made:
+          roles:
+            - "This One ([GitHub](https://github.com/aaylafetzer/aayla.dev))"
+            - "[New Urbanist Zoomers](https://newurbanistzoomers.org)"
+            - "[Spooky Fox Inc.](https://spookyfoxinc.com)"
+            - "[Samwat.ch](https://samwat.ch) (Currently offline)"
+            - "[Socialist Rifle Association](https://socialistra.org)"
+  Education:
+    type: experience
+    content:
+      Metropolitan State University:
+        subtitle: Computer Science with Minors in Math and Economics
+        date range: January 2020 - Coronavirus
+      Aims Community College:
+        subtitle: Associates Degree in Computer Science
+        date range: June 2018 - December 2019
+      CompTIA CySA+ Certification:
+        subtitle: Aims Community College
+        date range: 2019
+      GED:
+        roles:
+          - "Language Arts - 186/200 (93%)"
+          - "Social Studies - 191/200 (96%)"
+          - "Math - 182/200 (91%)"
+          - "Science - 185/200 (92%)"
