@@ -26,5 +26,5 @@ foreach ($yamlContent->sections as $section => $value) {
 }
 
 // Light / Dark theme toggle
-// include "components/themetoggle.php"
+include "components/themetoggle.php"
 ?>
