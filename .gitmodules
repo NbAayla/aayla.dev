@@ -1,3 +1,0 @@
-[submodule "res/php/php-markdown"]
-	path = res/php/php-markdown
-	url = git://github.com/michelf/php-markdown.git

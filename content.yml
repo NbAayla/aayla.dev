@@ -17,20 +17,20 @@ sections:
       content:
         Script And Web Developer:
           subtitle: Socialist Rifle Association
-          date range: Septemer 2020 - Ongoing
+          daterange: Septemer 2020 - Ongoing
           roles:
             - Develop and maintain SRA websites, web services, and server infrastructure
             - Develop scripts to automate the tasks of SRA staff, saving several hundred labor hours to date
             - Created SRA Merch store with [Shopify](https://shopify.com)
         Contract Engineer:
           subtitle: Socialist Rifle Association
-          date range: May 2020 - Promoted
+          daterange: May 2020 - Promoted
           roles:
             - Install and configure [Tendenci](https://www.tendenci.com/) for membership management
             - Create a [translation layer](https://github.com/aaylafetzer/JoinIt-Discourse-Integration) with Python Django between [JoinIt](https://joinit.org) and [Discourse](https://discourse.org) to automatically add new members to a forum
         Data Analytics:
           subtitle: Arete Associates
-          date range: January 2019 - July 2019
+          daterange: January 2019 - July 2019
           roles:
             - Developed and implemented a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time
             - Developed a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms
@@ -47,13 +47,13 @@ sections:
     content:
       Metropolitan State University:
         subtitle: Computer Science with Minors in Math and Economics
-        date range: January 2020 - Coronavirus
+        daterange: January 2020 - Coronavirus
       Aims Community College:
         subtitle: Associates Degree in Computer Science
-        date range: June 2018 - December 2019
-      CompTIA CySA+ Certification:
-        subtitle: Aims Community College
-        date range: 2019
+        daterange: June 2018 - December 2019
+      Certificates:
+        roles:
+          - "CompTIA CySA+ (2019)"
       GED:
         roles:
           - "Language Arts - 186/200 (93%)"

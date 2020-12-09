@@ -6,29 +6,32 @@
 <?php
 use Michelf\Markdown;
 // Render experience content
-foreach ($value["content"] as $key => $value) {
+
+foreach ($value->content as $key => $sectionValue) {
     echo '<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="resume-content">';
     // Title
     echo '<h3 class="mb-0">' . $key . '</h3>';
     // Company
-    if (array_key_exists("subtitle", $value)) {
-        echo '<div class="subheading mb-3">' . $value["subtitle"] . '</div>';
+    if (isset($sectionValue->subtitle)) {
+        echo '<div class="subheading mb-3">' . $sectionValue->subtitle . '</div>';
     }
     // Roles
-    if (array_key_exists("roles", $value)) {
+    if (isset($sectionValue->roles)) {
         echo '<ul>';
-        foreach ($value['roles'] as $roleValue) {
+        foreach ($sectionValue->roles as $roleValue) {
             $roleValue = Markdown::defaultTransform($roleValue);
             // Remove <p> tags
             $roleValue = substr($roleValue, 3, -2);
             echo "<li>" . $roleValue . "</li>";
         }
+        echo '</ul>';
     }
+    echo '</div>';
     // Date Range
-    if (array_key_exists("date range", $value)) {
-        echo '</div><div class="resume-date text-md-right">
-        <span class="text-primary">' . $value["date range"] . '</span></div>';
+    if (isset($sectionValue->daterange)) {
+        echo '<div class="resume-date text-md-right">
+        <span class="text-primary">' . $sectionValue->daterange . '</span></div>';
     }
     echo '</div>';
 }

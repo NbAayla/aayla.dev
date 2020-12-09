@@ -1,16 +1,16 @@
-<html lang="<?php echo $yamlContent["meta"]["language"]; ?>">
+<html lang="<?php echo $yamlContent->meta->language; ?>">
 <head>
-<title><?php echo $yamlContent["meta"]["title"];?></title>
+<title><?php echo $yamlContent->meta->title;?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 <?php
 // Create slightly different meta tags for each platform because the market system fosters competition that generally
 // produces the most efficient allocation of resources.
 $metaTags = array(
-    $yamlContent["meta"]["title"] => array(["title", "og:title", "twitter:title"]),
-    $yamlContent["bio"] => array(["description", "og:description", "twitter:description"]),
-    $yamlContent["meta"]["url"] => array(["og:url", "twitter:url"]),
-    $yamlContent["image"] => array(["og:image", "twitter:image"]),
+    $yamlContent->meta->title => array(["title", "og:title", "twitter:title"]),
+    $yamlContent->bio => array(["description", "og:description", "twitter:description"]),
+    $yamlContent->meta->url => array(["og:url", "twitter:url"]),
+    $yamlContent->image => array(["og:image", "twitter:image"]),
     "summary_large_image" => array(["twitter:card"])
 );
 // Echo the tags
