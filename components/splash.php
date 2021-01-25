@@ -9,7 +9,7 @@
 
 <?php
 // Create social media icons
-if ($yamlContent["social"]) {
+if ($yamlContent->social) {
     echo '<div class="social-icons">';
     foreach ($yamlContent->social as $key=>$value) {
         echo '
