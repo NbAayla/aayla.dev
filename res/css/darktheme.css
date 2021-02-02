@@ -1,12 +1,12 @@
 body.darktheme {
-    background-color: #1d2021;
+    background-color: #2e3440;
     color: white;
 }
 h1.darktheme, h2.darktheme, h3.darktheme{
     color: white;
 }
 a.darktheme {
-    color: #bd5d38
+    color: #81a1c1
 }
 .themetoggle {
     position: fixed;
