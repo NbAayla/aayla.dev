@@ -14,7 +14,7 @@ if ($yamlContent->social) {
     foreach ($yamlContent->social as $key=>$value) {
         echo '
         <a class="social-icon" href="' . $value . '">
-        <i class="fab fa-' . slugify($key) . '" aria-hidden="true"></i>
+        <i class="' . $key . '" aria-hidden="true"></i>
         </a>
         ';
     }

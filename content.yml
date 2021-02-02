@@ -7,10 +7,11 @@ image: "https://static.aayla.dev/profile_picture.jpg"
 email: "crash@aayla.dev"
 bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
 social:
-  GitHub: "https://github.com/aaylafetzer"
-  Telegram: "https://t.me/aaylafetzer"
-  Keybase: "https://keybase.io/aayla"
-  Twitter: "https://twitter.com/TovAayla"
+  fab fa-github: "https://github.com/aaylafetzer"
+  fab fa-telegram: "https://t.me/aaylafetzer"
+  fab fa-keybase: "https://keybase.io/aayla"
+  fab fa-twitter: "https://twitter.com/TovAayla"
+  fas fa-key: "https://static.aayla.dev/web/key.pub"
 sections:
   Experience:
       type: experience
@@ -61,9 +62,9 @@ sections:
           - "Social Studies - 191/200 (96%)"
           - "Math - 182/200 (91%)"
           - "Science - 185/200 (92%)"
-  List:
-    type: list
-    content:
-      Pubkey:
-        fontawesome: fas fa-key
-        url: https://static.aayla.dev/web/key.pub
+  # List:
+  #   type: list
+  #   content:
+  #     Pubkey:
+  #       fontawesome: fas fa-key
+  #       url: https://static.aayla.dev/web/key.pub
