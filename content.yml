@@ -68,3 +68,9 @@ sections:
   #     Pubkey:
   #       fontawesome: fas fa-key
   #       url: https://static.aayla.dev/web/key.pub
+  # Text Test:
+  #   type: text
+  #   content: 
+  #     - "# Paragraph 1"
+  #     - "## Paragraph 2"
+  #     - "### Paragraph 3"

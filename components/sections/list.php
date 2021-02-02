@@ -1,7 +1,8 @@
-<section class="resume-section" id="awards">
-<div class="resume-section-content" id="<?php echo slugify($section); ?>">
+<hr class="m-0">
+<section id="<?php echo slugify($section); ?>" class="resume-section p-3 p-lg-5 d-flex align-items-center">
+<div class="w-100">
 <h2 class="mb-5"><?php echo $section; ?></h2>
-<ul class="fa-ul mb-0">
+
 <?php
 foreach ($value->content as $key => $sectionValue) {
     echo "<li>";
