@@ -4,7 +4,9 @@ meta:
   title: Aayla Semyonova
   url: "https://aayla.dev"
 image: "https://static.aayla.dev/profile_picture.jpg"
-email: "crash@aayla.dev"
+subheading:
+  pronouns: "they/them/themself"
+  email: "[crash@aayla.dev](mailto:crash@aayla.dev)"
 bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
 social:
   fab fa-github: "https://github.com/NbAayla"
