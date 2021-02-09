@@ -23,17 +23,8 @@ foreach ($metaTags as $value => $tags) {
 }
 ?>
 
-<?php
-    /*
-        ATTENTION: I have minimized the files included from the vendor folders by removing all unused features. While this
-        resulted in a massive size reduction, many if not most features will be missing. To restore this functionality,
-        please get a fresh copy of the libraries.
-    */
-?>
-
-<!-- <link rel="stylesheet" href="/res/css/vendor/bootstrap.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
-<link rel="stylesheet" href="/res/css/vendor/fontawesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <!-- Custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
