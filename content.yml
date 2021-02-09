@@ -1,14 +1,14 @@
-name: Aayla "Crash" Fetzer
+name: Aayla "Crash" Semyonova
 meta:
   language: en
-  title: Aayla Fetzer
+  title: Aayla Semyonova
   url: "https://aayla.dev"
 image: "https://static.aayla.dev/profile_picture.jpg"
 email: "crash@aayla.dev"
 bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
 social:
-  fab fa-github: "https://github.com/aaylafetzer"
-  fab fa-telegram: "https://t.me/aaylafetzer"
+  fab fa-github: "https://github.com/NbAayla"
+  fab fa-telegram: "https://t.me/tovaayla"
   fab fa-keybase: "https://keybase.io/aayla"
   fab fa-twitter: "https://twitter.com/TovAayla"
   fas fa-key: "https://static.aayla.dev/web/key.pub"
@@ -40,7 +40,7 @@ sections:
         Websites I've Made:
           roles:
             - "This One ([GitHub](https://github.com/aaylafetzer/aayla.dev))"
-            - "[New Urbanist Zoomers](https://newurbanistzoomers.org)"
+              #            - "[New Urbanist Zoomers](https://newurbanistzoomers.org)"
             - "[Spooky Fox Inc.](https://spookyfoxinc.com)"
             - "[Samwat.ch](https://samwat.ch) (Currently offline)"
             - "[Socialist Rifle Association](https://socialistra.org)"
