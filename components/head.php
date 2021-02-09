@@ -23,12 +23,20 @@ foreach ($metaTags as $value => $tags) {
 }
 ?>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
-<!-- Custom fonts for this template -->
+<?php
+    /*
+        ATTENTION: I have minimized the files included from the vendor folders by removing all unused features. While this
+        resulted in a massive size reduction, many if not most features will be missing. To restore this functionality,
+        please get a fresh copy of the libraries.
+    */
+?>
+
+<link rel="stylesheet" href="/res/css/vendor/bootstrap.css">
+<link rel="stylesheet" href="/res/css/vendor/fontawesome.css">
+<!-- Custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
-<!-- Custom styles for this template -->
+<!-- Custom styles -->
 <link href="/res/css/resume.css" rel="stylesheet">
 <link href="/res/css/darktheme.css" rel="stylesheet">
 </head>
