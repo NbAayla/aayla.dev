@@ -5,8 +5,8 @@ meta:
   url: "https://aayla.dev"
 image: "https://static.aayla.dev/profile_picture.jpg"
 subheading:
-  pronouns: "they/them/themself"
-  email: "[crash@aayla.dev](mailto:crash@aayla.dev)"
+  - "they/them/themself"
+  - "[crash@aayla.dev](mailto:crash@aayla.dev)"
 bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
 social:
   fab fa-github: "https://github.com/NbAayla"
