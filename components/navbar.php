@@ -14,9 +14,15 @@
 
 // Create section links
 foreach ($yamlContent->sections as $section => $key) {
+    $link = slugify($section);
+    // Test if the section is a link to another side
+    if ($key->type == "link") {
+      $link = $key->url;
+    }
+    // Echo link to navbar
     echo '
         <li class="nav-item">
-            <a class="nav-link" href="#' . slugify($section) . '">' . $section . '</a>
+            <a class="nav-link" href="' . $link . '">' . $section . '</a>
         </li>
     ';
 }

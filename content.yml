@@ -15,6 +15,9 @@ social:
   fab fa-twitter: "https://twitter.com/TovAayla"
   fas fa-key: "https://static.aayla.dev/web/key.pub"
 sections:
+  Blog:
+    type: link
+    url: https://blog.aayla.dev
   Experience:
       type: experience
       content:
