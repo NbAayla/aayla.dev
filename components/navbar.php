@@ -14,7 +14,7 @@
 
 // Create section links
 foreach ($yamlContent->sections as $section => $key) {
-    $link = slugify($section);
+    $link = "#" . slugify($section);
     // Test if the section is a link to another side
     if ($key->type == "link") {
       $link = $key->url;
