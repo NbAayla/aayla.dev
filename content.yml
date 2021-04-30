@@ -11,8 +11,8 @@ bio: "I'm a Python, Rust, and PHP developer and the Script & Web Developer for t
 social:
   fab fa-github: "https://github.com/NbAayla"
   fab fa-telegram: "https://t.me/tovaayla"
-  fab fa-keybase: "https://keybase.io/aayla"
-  fab fa-twitter: "https://twitter.com/TovAayla"
+  # fab fa-keybase: "https://keybase.io/aayla"
+  # fab fa-twitter: "https://twitter.com/TovAayla"
   fas fa-key: "https://static.aayla.dev/web/key.pub"
 sections:
   Blog:
