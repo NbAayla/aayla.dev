@@ -7,7 +7,7 @@ image: "https://static.aayla.dev/profile_picture.jpg"
 subheading:
   - "she/her"
   - "[aayla@aayla.dev](mailto:aayla@aayla.dev)"
-bio: "I'm a nonbinary Python and Rust developer exploring cryptography and computer vision with OpenCV."
+bio: "I'm a Python, Rust, and PHP developer and the Script & Web Developer for the Socialist Rifle Assocation."
 social:
   fab fa-github: "https://github.com/NbAayla"
   fab fa-telegram: "https://t.me/tovaayla"
@@ -46,7 +46,8 @@ sections:
           roles:
             - "This One ([GitHub](https://github.com/NbAayla/aayla.dev))"
               #            - "[New Urbanist Zoomers](https://newurbanistzoomers.org)"
-            - "[Spooky Fox Inc.](https://spookyfoxinc.com)"
+            # - "[Spooky Fox Inc.](https://spookyfoxinc.com)"
+            - "[Raccoon.club](https://raccoon.club)"
             - "[Samwat.ch](https://samwat.ch) (Currently offline)"
             - "[Socialist Rifle Association](https://socialistra.org)"
   Education:
