@@ -3,12 +3,11 @@
     "description": "My Personal Site",
     "type": "project",
     "require": {
-        "michelf/php-markdown": "^1.9",
         "dallgoot/yaml": "^0.3.2"
     },
     "authors": [
         {
-            "name": "Aayla Fetzer",
+            "name": "Aayla Semyonova",
             "email": "aayla@aayla.dev"
         }
     ]
