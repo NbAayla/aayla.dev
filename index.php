@@ -22,6 +22,29 @@
         <!-- fevicon -->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         
+
+        <?php
+            function create_tag($property, $content) {
+                return "<meta property='$property' content='$content'>";
+            }
+            // Generate meta tags
+            $metaTags = array(
+                $yamlContent->name->given . " " . $yamlContent->name->surname => array(["title", "og:title", "twitter:title"]),
+                $yamlContent->bio[0] => array(["description", "og:description", "twitter:description"]),
+                "https://static.aayla.dev/profile_picture.jpg" => array(["og:image", "twitter:image"]),
+                "https://aayla.dev" => array(["og:url", "twitter:url"])
+              );
+              foreach ($metaTags as $value => $tags) {
+                foreach (array_values($tags) as $tag_array) {
+                  foreach($tag_array as $tag) {
+                      echo create_tag($tag, $value);
+                  }
+                }
+              }
+              // Create regular title tag
+              echo "<title>" . $yamlContent->name->given . " " . $yamlContent->name->surname . "</title>";
+        ?>
+
         <!-- ================================
         CSS Files
         ================================= -->
