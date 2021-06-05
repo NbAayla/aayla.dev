@@ -1,0 +1,82 @@
+name: Aayla "Crash" Semyonova
+meta:
+  language: en
+  title: Aayla Semyonova
+  url: "https://aayla.dev"
+image: "https://static.aayla.dev/profile_picture.jpg"
+subheading:
+  - "she/her"
+  - "[aayla@aayla.dev](mailto:aayla@aayla.dev)"
+bio: "I'm a Python, Rust, and PHP developer and the Script & Web Developer for the Socialist Rifle Assocation."
+social:
+  fab fa-github: "https://github.com/NbAayla"
+  fab fa-telegram: "https://t.me/tovaayla"
+  # fab fa-keybase: "https://keybase.io/aayla"
+  # fab fa-twitter: "https://twitter.com/TovAayla"
+  fas fa-key: "https://static.aayla.dev/web/key.pub"
+sections:
+  Blog:
+    type: link
+    url: https://blog.aayla.dev
+  Experience:
+      type: experience
+      content:
+        Script And Web Developer:
+          subtitle: Socialist Rifle Association
+          daterange: Septemer 2020 - Ongoing
+          roles:
+            - Develop and maintain SRA websites, web services, and server infrastructure
+            - Develop scripts to automate the tasks of SRA staff, saving several hundred labor hours to date
+            - Created SRA Merch store with [Shopify](https://shopify.com)
+            - Responded to critical application security vulnerabilities
+        Contract Engineer:
+          subtitle: Socialist Rifle Association
+          daterange: May 2020 - Promoted
+          roles:
+            - Install and configure [Tendenci](https://www.tendenci.com/) for membership management
+            - Create a [translation layer](https://github.com/aaylafetzer/JoinIt-Discourse-Integration) with Python Django between [JoinIt](https://joinit.org) and [Discourse](https://discourse.org) to automatically add new members to a forum
+        Data Analytics:
+          subtitle: Arete Associates
+          daterange: January 2019 - July 2019
+          roles:
+            - Developed and implemented a phase correlation algorithm in Python and C++ to detect and track subpixel objects in real time
+            - Developed a binary file format to hold camera frames compressed with the Lempel-Ziv-Markov Chain and PAQ8L Algorithms
+            - Developed a Python script to automatically extract and organize data from proprietary formats through a GUI
+        Websites I've Made:
+          roles:
+            - "This One ([GitHub](https://github.com/NbAayla/aayla.dev))"
+              #            - "[New Urbanist Zoomers](https://newurbanistzoomers.org)"
+            # - "[Spooky Fox Inc.](https://spookyfoxinc.com)"
+            - "[Raccoon.club](https://raccoon.club)"
+            - "[Samwat.ch](https://samwat.ch) (Currently offline)"
+            - "[Socialist Rifle Association](https://socialistra.org)"
+  Education:
+    type: experience
+    content:
+      Metropolitan State University:
+        subtitle: Computer Science with Minors in Math and Economics
+        daterange: January 2020 - Coronavirus
+      Aims Community College:
+        subtitle: Associates Degree in Computer Science
+        daterange: June 2018 - December 2019
+      Certificates:
+        roles:
+          - "CompTIA CySA+ (2019)"
+      GED:
+        roles:
+          - "Language Arts - 186/200 (93%)"
+          - "Social Studies - 191/200 (96%)"
+          - "Math - 182/200 (91%)"
+          - "Science - 185/200 (92%)"
+  # List:
+  #   type: list
+  #   content:
+  #     Pubkey:
+  #       fontawesome: fas fa-key
+  #       url: https://static.aayla.dev/web/key.pub
+  # Text Test:
+  #   type: text
+  #   content: 
+  #     - "# Paragraph 1"
+  #     - "## Paragraph 2"
+  #     - "### Paragraph 3"
