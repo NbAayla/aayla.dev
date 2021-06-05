@@ -1,0 +1,28 @@
+name:
+  surname: Semyonova
+  given: Aayla
+bio:
+  - Rust, Python, and Web developer
+  - She/Her
+hexmenu:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/NbAayla/
+  Keybase:
+    icon: fab fa-keybase
+    url: https://keybase.io/aayla
+  Blog:
+    icon: fas fa-rss
+    url: https://blog.aayla.dev
+  Resume: 
+    icon: fas fa-file-pdf
+    url: https://static.aayla.dev/web/resume/Resume_v2.1.0.pdf
+  Raccoon.club:
+    icon: fas fa-mask
+    url: https://raccoon.club
+  Pubkey:
+    icon: fas fa-key
+    url: https://static.aayla.dev/web/key.pub
+  Pipboy:
+    icon: fas fa-gamepad
+    url: https://github.com/NbAayla/pipboy
