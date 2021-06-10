@@ -8,10 +8,10 @@ previewImage:
 hexmenu:
   GitHub:
     icon: fab fa-github
-    url: https://github.com/NbAayla/
+    url: https://github.com/gravejumper/
   Keybase:
     icon: fab fa-keybase
-    url: https://keybase.io/aayla
+    url: https://keybase.io/gravejumper
   Blog:
     icon: fas fa-rss
     url: https://blog.aayla.dev
@@ -26,4 +26,4 @@ hexmenu:
     url: https://static.aayla.dev/web/key.pub
   Pipboy:
     icon: fas fa-gamepad
-    url: https://github.com/NbAayla/pipboy
+    url: https://github.com/gravejumper/pipboy
